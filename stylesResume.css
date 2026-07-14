@@ -1,0 +1,63 @@
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-variant: small-caps;
+  color: #1a365d;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #1a365d;
+
+}
+
+h3 {
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #2b2d42;
+}
+
+p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #2b2d42;
+}
+
+li {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #2b2d42;
+}
+
+/* 1. Set a very small, uniform padding on the cell container */
+th,
+td {
+  padding: 8px 4px;
+  /* 8px top/bottom, 4px left/right */
+}
+
+/* 2. Tighten the space above and below headers inside cells */
+td h2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+td h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* 3. Tighten the space around lists inside cells */
+td ul {
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+
+/* 4. Pull bullet items closer together vertically */
+td li {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+table {
+  margin: 20px;
+}

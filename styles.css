@@ -1,0 +1,21 @@
+h1 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-variant: small-caps;
+}
+
+#title {
+    color: red;
+    text-align: center;
+}
+
+.best-selling {
+    background-color: yellow;
+}
+
+#specialities-list li{
+    color:blue;
+}
+
+.important {
+    border:1px solid red;
+}
